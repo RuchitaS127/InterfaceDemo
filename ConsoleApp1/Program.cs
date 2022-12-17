@@ -37,5 +37,3 @@ namespace Application
         }
     }
 }
-
-//IShape shape = new IShape(); 
