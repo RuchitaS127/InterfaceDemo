@@ -1,33 +1,8 @@
-﻿using System;
-
-// See https://aka.ms/new-console-template for more information
-
+﻿using ConsoleApp1;
+using System;
 
 namespace Application
 {
-
-    interface IShape 
-    {
-        void CalculateArea(int length, int breadth);
-
-        void CalculatePerimeter(int length, int breadth);
-
-    }
-
-    public class Rectangle : IShape
-    {
-        public void CalculateArea(int length, int breadth)
-        {
-            int area = length * breadth;
-            Console.WriteLine("Area of Rectangle is : " + area);
-        }
-
-        public void CalculatePerimeter(int length, int breadth)
-        {
-            int result = 2*(length + breadth);
-            Console.WriteLine("Perimeter of Rectangle is : " + result);
-        }
-    }
 
     public class Square : IShape
     {
